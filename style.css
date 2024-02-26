@@ -1,0 +1,347 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+.netflix {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.netflix-img{
+    width: 100%;
+    transform: scale(1.3);
+}
+.tint{
+    background-color: rgba(0, 0, 0, 0.45);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.content{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    color: white;
+    width: 840px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+}
+.logo{
+    color: rgba(255, 0, 0, 0.827);
+}
+.navbar-btn{
+    display: flex;
+    gap: 20px;
+}
+.sign-in-btn{
+    padding: 6px 15px;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.827);
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.Eng-btn{
+    border: none;
+    color: white;
+    background: transparent;
+    font-size: 14px;
+    padding: 6px 24px;
+    border: 1px solid #eeeeee73;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-right: 4px;
+    
+}
+.option1{
+    color: black;
+}
+.option1:hover{
+    color: white;
+}
+.lang{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.span-p{
+    position: absolute;
+    left: 10px;
+ 
+}
+.span-t{
+    position: absolute;
+    left: 75px;
+    top: 2px;
+}
+.Eng-btn:focus {
+    border: 1.5px solid white;
+    border-radius: 4px;
+}
+    
+.title{
+    font-size: 46px;
+    text-align: center;
+}
+.sub-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.description{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.content-search{
+    width: 360px;
+    padding: 14px;
+    font-size: 16px;
+    background-color: rgba(12, 12, 12, 0.532);
+    border: 1px solid rgba(170, 168, 168, 0.574);
+    border-radius: 4px;
+    color: white;
+}
+.content-btn {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+.get-started{
+    width: 220px;
+    padding: 14px;
+    background-color: rgba(255, 0, 0, 0.827);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+}
+.mt {
+    margin-top: 4px;
+}
+
+.container{
+    color: white;
+    display: flex;
+    width: 1200px;
+    margin: 100px auto;
+    gap: 80px;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    
+
+}
+.right{
+    width: 50%;
+    
+}
+.tv{
+    width: 100%;
+    position: absolute;
+    
+}
+.video{
+    margin-left: 70px;
+    margin-top: 70px;
+    position: absolute;
+}
+.real-tv{
+    
+    height: 420px;
+    position: relative;
+    
+}
+.container-heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.container-description{
+    font-size: 22px;
+}
+section{
+    border-bottom: 8px solid rgba(211, 211, 211, 0.147);
+}
+.stranger {
+    display: flex;
+    
+ }
+ .stranger-img{
+     height: 80px;
+ }
+ .stranger-div{
+     width: 50%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 2px solid rgba(211, 211, 211, 0.345);
+     border-radius: 12px;
+     background-color: black;
+     padding: 10px;
+     position: absolute;
+     top: 286px;
+     left: 130px;
+
+ }
+ .heading{
+     margin-bottom: 0px;
+     margin-left: 10px;
+     color: white;
+     font-size: 18px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .para{
+     margin-top: 0px;
+     margin-left: 10px;
+     color: blue;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .video1{
+    position: absolute;
+    width: 350px;    
+    top: 40px;
+    left: 100px;
+    
+ }
+ .faq{
+    text-align: center;
+    margin-bottom: 60px;
+ }
+ .faq h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 0px;
+ }
+ .faq-content{
+    font-size: 24px;
+    color: white;
+    margin: 60px auto;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 10px;
+    padding-left: 0px;
+
+ }
+  .faq-content li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+  }
+  
+  .faq-content li label {
+    display: flex;
+    align-items: center;
+    padding: 26px 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+
+  }
+  .faq-content li label:hover{
+    background: #91919180;
+  }
+ .span-c{
+    position: absolute;
+    right: 20px;
+    
+ }
+ input[type="radio"]{
+   display: none;
+
+ }
+ .faq-content .content-c{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+ }
+ .faq-content input[type="radio"]:checked + label + .content-c {
+    max-height: 600px;
+    padding: 30px 20px;
+    
+ }
+ .faq-content input[type="radio"]:checked + label .span-c{
+    transform: rotate(135deg);
+ }
+ 
+ .footer{
+    margin: 60px auto;
+    width: 100%;
+    
+    max-width: 1200px;
+    
+ }
+.footer p{
+    color: #deddddd5;
+   
+
+}
+.footer p span{
+    text-decoration: underline;
+}
+.qstn-q{
+    
+    display: flex;
+
+}
+.q1{
+    
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    
+}
+.q1 a{
+    padding-bottom: 20px;
+    color: #deddddd5;
+}
+.q1 p{
+    color: #deddddd5;
+}
+.qstn-q .lang{
+    margin-bottom: 20px;
+    
+}
+.qstn-q .lang:active{
+    border: none;
+}
+ 
+ 
