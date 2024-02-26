@@ -280,7 +280,7 @@ section{
     right: 20px;
     
  }
- input[type="radio"]{
+ input[type="checkbox"]{
    display: none;
 
  }
@@ -292,12 +292,12 @@ section{
     overflow: hidden;
     transition: max-height 0.5s, padding 0.5s;
  }
- .faq-content input[type="radio"]:checked + label + .content-c {
+ .faq-content input[type="checkbox"]:checked + label + .content-c {
     max-height: 600px;
     padding: 30px 20px;
     
  }
- .faq-content input[type="radio"]:checked + label .span-c{
+ .faq-content input[type="checkbox"]:checked + label .span-c{
     transform: rotate(135deg);
  }
  
