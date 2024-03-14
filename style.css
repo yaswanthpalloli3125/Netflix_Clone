@@ -53,6 +53,8 @@ body{
     }
     .logo{
         color: rgba(255, 0, 0, 0.827);
+        width: 140px;
+        height: 140px;
     }
     .navbar-btn{
         display: flex;
@@ -400,6 +402,8 @@ body{
     }
     .logo{
         color: rgba(255, 0, 0, 0.827);
+        width: 140px;
+        height: 140px;
     }
     .navbar-btn{
         display: flex;
@@ -748,10 +752,12 @@ body{
     }
     .logo{
         color: rgba(255, 0, 0, 0.827);
+        width: 90px;
+        height: 90px;
     }
     .navbar-btn{
         display: flex;
-        gap: 20px;
+        gap: 5px;
     }
     .sign-in-btn{
         padding: 6px 15px;
@@ -759,14 +765,14 @@ body{
         background-color: rgba(255, 0, 0, 0.827);
         color: white;
         border-radius: 4px;
-        font-size: 14px;
+        font-size: 10px;
         cursor: pointer;
     }
     .Eng-btn{
         border: none;
         color: white;
         background: transparent;
-        font-size: 14px;
+        font-size: 10px;
         padding: 6px 24px;
         border: 1px solid #eeeeee73;
         border-radius: 4px;
@@ -794,6 +800,7 @@ body{
      
     }
     .span-t{
+        display: none;
         position: absolute;
         left: 75px;
         top: 2px;
@@ -825,10 +832,7 @@ body{
         border-radius: 4px;
         color: white;
     }
-    .content-btn {
-        
-     
-    }
+    
     .get-started{
         width: 220px;
         padding: 12px;
@@ -1028,7 +1032,7 @@ body{
     }
     .q1{
         
-        width: 120px;
+        width: 80px;
         display: flex;
         flex-direction: column;
         margin-right: 50px;
