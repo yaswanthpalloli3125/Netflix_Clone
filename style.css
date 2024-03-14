@@ -752,8 +752,8 @@ body{
     }
     .logo{
         color: rgba(255, 0, 0, 0.827);
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
     }
     .navbar-btn{
         display: flex;
@@ -1032,7 +1032,7 @@ body{
     }
     .q1{
         
-        width: 80px;
+        width: 50px;
         display: flex;
         flex-direction: column;
         margin-right: 50px;
