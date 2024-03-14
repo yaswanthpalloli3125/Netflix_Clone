@@ -1013,6 +1013,7 @@ body{
     .footer p{
         color: #deddddd5;
         font-size: 12px;
+        
     
     }
     .footer p span{
@@ -1022,11 +1023,12 @@ body{
     .qstn-q{
         
         display: flex;
+        flex-wrap: wrap;
     
     }
     .q1{
         
-        width: 250px;
+        width: 120px;
         display: flex;
         flex-direction: column;
         margin-right: 50px;
@@ -1038,9 +1040,11 @@ body{
         color: #deddddd5;
     }
     .q1 p{
+        
         color: #deddddd5;
     }
     .qstn-q .lang{
+        
         margin-bottom: 20px;
         
     }
